@@ -1,0 +1,127 @@
+.feed__container {
+  width:26%;
+  height: 100vh;
+  
+}
+.main {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 13vh;
+}
+p {
+  margin: 0;
+}
+.text__container {
+  display: flex;
+  justify-content: space-between;
+}
+.text__client {
+  display: flex;
+  padding: 5px;
+}
+.client {
+  font-size: 30px;
+}
+.icon {
+  padding: 5px;
+  margin-top: 0.75rem;
+  color: #4285F4;
+}
+.time {
+  margin-top: 0.75rem;
+  color: #0000ff;
+}
+.square__icon {
+  /* padding: 15px; */
+  color: #4285F4;
+  font-size: 30px;
+}
+.square {
+  margin-top: 1rem;
+  margin-right: 5px;
+}
+
+.searchbar {
+  width: 97%;
+  height: 30px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.searchIcon {
+  font-size: 20px !important;
+  margin-left: 10px;
+  color: #4285F4;
+}
+.searchInput {
+  border: none;
+  width: 50%;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+.date__container{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5px;
+
+}
+
+.expense-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    padding: 0.5rem;
+    margin: 1rem 0;
+    border-radius: 12px;
+    /* background-color: #4b4b4b; */
+    cursor: pointer;
+    background-color: rgb(238, 232, 232);
+  }
+
+  /* .expense-item__description  {
+    font-size: 1.25rem;
+  } */
+ .expenses{
+          padding: 0.5rem;  
+        /*  background-color: rgb(31, 31, 31);  */
+       background-color: rgb(238, 232, 232);
+        margin: 1rem auto;
+       /*  width: 50rem; */
+          max-width: 95%;  
+        border-radius: 12px;
+         box-shadow: 0 1px 8px rgba(228, 224, 224, 0.25);
+        overflow-y: scroll;
+        height:76.3vh;
+      } 
+      
+ 
+      ::-webkit-scrollbar {
+        width: 5px;
+      }
+      ::-webkit-scrollbar-track {
+        background-color: #f1f1f1;
+      }
+      ::-webkit-scrollbar-thumb {
+        background-color: rgb(179, 179, 179);
+      }
+
+      @media only screen and (max-width: 600px) {
+        .feed__container{
+          width: 99%;
+        }
+        .expense-item {
+          width: 90%;
+          padding: 0.5rem;
+          margin: 0.5rem 0;
+          border-radius: 6px;
+          cursor: pointer;
+          background-color: rgb(238, 232, 232);
+        }
+      }

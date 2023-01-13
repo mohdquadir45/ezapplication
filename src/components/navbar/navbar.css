@@ -1,0 +1,33 @@
+.navbar__container{
+    
+    height: 50px;
+    margin: 0 5px 0 0;
+    background-color: #091627;
+    color: white;
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .navbar__container{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+    }
+    .right-side{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .right-side>img{
+        margin-left: 10px;
+    }
+    .nav__image{
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        object-fit: cover;
+        cursor: pointer;
+    }
+  }
